@@ -1,0 +1,79 @@
+/* Container Geral */
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/* Header */
+.header {
+background-color: #282c34;
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+.title {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+/* Menu */
+.menu {
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: #444;
+padding: 10px;
+}
+
+.menuItem {
+color: white;
+text-decoration: none;
+font-size: 18px;
+transition: color 0.3s;
+}
+
+.menuItem:hover {
+color: #61dafb;
+}
+
+/* Home Page */
+.homeContainer {
+text-align: center;
+}
+
+.homeTitle {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+/* Form (Create/Update Movie) */
+.form {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+margin: 0 auto;
+}
+
+.inputField {
+margin-bottom: 15px;
+padding: 10px;
+font-size: 16px;
+}
+
+.button {
+padding: 10px 20px;
+background-color: #61dafb;
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s;
+}
+
+.button:hover {
+background-color: #21a1f1;
+}
